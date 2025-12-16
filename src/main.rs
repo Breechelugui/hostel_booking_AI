@@ -8,9 +8,9 @@ fn main() {
     
     // Test different preferences
     let test_cases = vec![
-        ("John Doe", "quiet room please"),
-        ("Jane Smith", "room with a view"),
-        ("Bob Wilson", "budget option"),
+        ("Bonface Too", "quiet room please"),
+        ("Juliet Chelugui", "room with a view"),
+        ("Brendah Chelugui", "budget option"),
     ];
     
     for (i, (guest_name, preferences)) in test_cases.iter().enumerate() {
@@ -24,14 +24,14 @@ fn main() {
                     (i + 1) as u32,
                     guest_name.to_string(),
                     room_number,
-                    "2024-01-01".to_string(),
-                    "2024-01-03".to_string(),
+                    "2026-01-01".to_string(),
+                    "2026-01-03".to_string(),
                 );
                 
                 if let Some(room_info) = ai.get_room_info(room_number) {
                     println!("✅ Booking confirmed!");
                     println!("   Room: {} ({})", room_number, room_info.room_type);
-                    println!("   Price: ${}/night", room_info.price);
+                    println!("   Price: KSH{}/night", room_info.price);
                     println!("   Guest: {}", booking.guest_name);
                 }
             }

@@ -8,8 +8,8 @@ mod tests {
             1,
             "Test Guest".to_string(),
             101,
-            "2024-01-01".to_string(),
-            "2024-01-03".to_string(),
+            "2026-01-01".to_string(),
+            "2026-01-03".to_string(),
         );
         
         assert_eq!(booking.id, 1);

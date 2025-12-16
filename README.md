@@ -1,80 +1,86 @@
-# Hostel Booking ai - Rust Beginner's Toolkit
+# Hostel Booking AI
 
-🏨 A Rust-based ai system demonstrating core language features through a hostel booking application.
+🏨 A Rust-based AI system for hostel room booking with smart preference matching.
 
-## 🎯 Project Overview
+[![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This project serves as a **beginner's toolkit for learning Rust** through a practical example. It demonstrates:
-- Rust's ownership model and borrowing
-- Struct definitions and implementations
-- Module organization and visibility
-- Pattern matching and Option types
-- Basic "ai" logic with preference matching
+## Overview
 
-## 🚀 Quick Start
+A beginner-friendly Rust project demonstrating:
+- Ownership and borrowing
+- Structs and methods
+- Module organization
+- Pattern matching
+- AI-powered room suggestions
 
-### Prerequisites
-- Rust 1.70+ installed ([Install Rust](https://rustup.rs/))
-- Git for cloning
+## Quick Start
 
-### Run the Project
 ```bash
-# Clone the repository
+# Clone and run
 git clone https://github.com/Breechelugui/hostel_booking_ai.git
 cd hostel_booking_ai
-
-# Build and run
-cargo build
 cargo run
 ```
 
-### Expected Output
-```
-🏨 Welcome to Hostel Booking ai System!
-=========================================
+**Prerequisites**: [Rust 1.70+](https://rustup.rs/)
 
-📋 Processing booking #1
-Guest: John Doe
-Preferences: quiet room please
-✅ Booking confirmed!
-   Room: 101 (quiet)
-   Price: $50/night
-   Guest: John Doe
+## Features
 
-...
-```
+- **Smart Room Matching** 
+- AI suggests rooms based on guest preferences
+- **Booking Management** 
+- Create and track reservations
+- **Price Calculation** 
+- Dynamic pricing by room type
+- **Memory Safe** 
+- Rust's ownership system prevents common bugs
 
-## 📚 Learning Resources
-
-For the complete learning guide, see [TOOLKIT.md](./TOOLKIT.md) which includes:
-- Step-by-step Rust setup
-- Code explanations with ai prompts used
-- Common errors and solutions
-- Next steps for beginners
-
-## 📜 Project Structure
+## Project Structure
 
 ```
 src/
-├── main.rs      # Entry point with demo
-├── lib.rs       # Library exports
-├── booking.rs   # Booking struct and methods
-└── ai.rs        # ai logic and room management
+├── main.rs      # Entry point and demo
+├── lib.rs       # Module exports
+├── booking.rs   # Booking logic
+├── ai.rs        # AI room suggestions
+└── room.rs      # Room management
 ```
 
-## 🧪 Features Demonstrated
+## Example Output
 
-- **Ownership & Borrowing**: Safe memory management without garbage collection
-- **Structs & Methods**: Object-oriented patterns in Rust
-- **Modules**: Code organization and visibility
-- **Pattern Matching**: Powerful control flow with `match`
-- **Option Types**: Null safety with `Some`/`None`
+```
+🏨 Welcome to Hostel Booking AI System!
 
-## 🔧 Built With
+📋 Processing booking #1
+Guest: Bonface Too
+Preferences: quiet room please
+✅ Booking confirmed!
+   Room: 101 (quiet)
+   Price: KSH5000/night
+```
 
-- **Rust 1.70+** - Systems programming language
-- **Cargo** - Rust's build system and package manager
+## Learning Resources
+
+See [TOOLKIT.md](./TOOLKIT.md) for:
+- Complete Rust setup guide
+- Code explanations with AI prompts
+- Common errors and solutions
+- Next learning steps
+
+## Testing
+
+```bash
+cargo test              # Run all tests
+cargo test -- --nocapture  # With output
+```
+
+## Built With
+
+- **Rust** - Systems programming language
+- **Cargo** - Build system and package manager
+- **Standard Library** - No external dependencies
 
 ---
 
-🎓 **Part of Moringa ai Capstone Project**: *Prompt-Powered Kickstart for Rust Programming*
+🎓 **Moringa AI Capstone Project** - Learning Rust through AI-assisted development

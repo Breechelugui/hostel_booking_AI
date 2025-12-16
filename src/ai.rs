@@ -13,9 +13,9 @@ pub struct Room {
 impl BookingAI {
     pub fn new() -> Self {
         let rooms = vec![
-            Room { number: 101, room_type: "quiet".to_string(), price: 50, available: true },
-            Room { number: 201, room_type: "view".to_string(), price: 80, available: true },
-            Room { number: 301, room_type: "budget".to_string(), price: 30, available: true },
+            Room { number: 101, room_type: "quiet".to_string(), price: 5000, available: true },
+            Room { number: 201, room_type: "view".to_string(), price: 8000, available: true },
+            Room { number: 301, room_type: "budget".to_string(), price: 3000, available: true },
         ];
         Self { room_database: rooms }
     }
