@@ -1,6 +1,6 @@
-# Hostel Booking AI - Rust Beginner's Toolkit
+# Hostel Booking ai - Rust Beginner's Toolkit
 
-🏨 A Rust-based AI system demonstrating core language features through a hostel booking application.
+🏨 A Rust-based ai system demonstrating core language features through a hostel booking application.
 
 ## 🎯 Project Overview
 
@@ -9,7 +9,7 @@ This project serves as a **beginner's toolkit for learning Rust** through a prac
 - Struct definitions and implementations
 - Module organization and visibility
 - Pattern matching and Option types
-- Basic "AI" logic with preference matching
+- Basic "ai" logic with preference matching
 
 ## 🚀 Quick Start
 
@@ -20,8 +20,8 @@ This project serves as a **beginner's toolkit for learning Rust** through a prac
 ### Run the Project
 ```bash
 # Clone the repository
-git clone https://github.com/Breechelugui/hostel_booking_AI.git
-cd hostel_booking_AI
+git clone https://github.com/Breechelugui/hostel_booking_ai.git
+cd hostel_booking_ai
 
 # Build and run
 cargo build
@@ -30,7 +30,7 @@ cargo run
 
 ### Expected Output
 ```
-🏨 Welcome to Hostel Booking AI System!
+🏨 Welcome to Hostel Booking ai System!
 =========================================
 
 📋 Processing booking #1
@@ -48,7 +48,7 @@ Preferences: quiet room please
 
 For the complete learning guide, see [TOOLKIT.md](./TOOLKIT.md) which includes:
 - Step-by-step Rust setup
-- Code explanations with AI prompts used
+- Code explanations with ai prompts used
 - Common errors and solutions
 - Next steps for beginners
 
@@ -59,7 +59,7 @@ src/
 ├── main.rs      # Entry point with demo
 ├── lib.rs       # Library exports
 ├── booking.rs   # Booking struct and methods
-└── ai.rs        # AI logic and room management
+└── ai.rs        # ai logic and room management
 ```
 
 ## 🧪 Features Demonstrated
@@ -77,4 +77,4 @@ src/
 
 ---
 
-🎓 **Part of Moringa AI Capstone Project**: *Prompt-Powered Kickstart for Rust Programming*
+🎓 **Part of Moringa ai Capstone Project**: *Prompt-Powered Kickstart for Rust Programming*
